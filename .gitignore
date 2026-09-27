@@ -1,0 +1,18 @@
+# === Flint Managed (do not edit) ===
+# Flint internals
+.flint/
+.steel/
+.obsidian/
+.obsidian.bak-*/
+.obsidian.local-backup-*/
+.obsidian.unverified-*/
+.obsidian-new-*/
+.mesh/
+.orb/
+.orbh/
+Shards/(Shards) Local State/
+
+# Shards (remote-backed)
+Shards/(Dev Remote) */
+Shards/(Source Remote) */
+# === End Flint Managed ===

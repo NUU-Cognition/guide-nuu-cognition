@@ -1,0 +1,12 @@
+[flint]
+name = "NUU Cognition"
+type = "guide"
+org = "nuucognition"
+visibility = "public"
+
+[shards]
+flint = { source = "@nuucognition/flint", git = "NUU-Cognition/shard-flint" }
+orbh = { git = "NUU-Cognition/shard-orbh" }
+invironments = { source = "NUU-Cognition/shard-invironments" }
+
+
