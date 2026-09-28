@@ -8,5 +8,9 @@ visibility = "public"
 flint = { source = "@nuucognition/flint", git = "NUU-Cognition/shard-flint" }
 orbh = { git = "NUU-Cognition/shard-orbh" }
 invironments = { source = "NUU-Cognition/shard-invironments" }
+flint-help = { source = "@nuucognition/flint-help", from = "source" }
 
 
+
+[sources]
+repositories = [{ name = "Flint Public", url = "https://github.com/NUU-Cognition/flint-public.git" }]

@@ -25,6 +25,10 @@ The visibility of this Flint is `public`. It holds nothing private.
 5. Write nothing here that only one org or one person may read. Do not add secrets, tokens, machine names, or private facts about a person.
 6. When you add or change a note, keep one subject per note, and write in short sentences.
 
+## Flint questions and Flint problems
+
+For a question about Flint, or a problem with a Flint command, load the Flint Help shard: run `flint shard start fh` and read the files that it lists. Flint Help answers from the installed CLI, the notes of this Guide, and the Flint source code in `Sources/Repos/Flint Public/`. It names each source. It asks the person before it runs a command that writes.
+
 ## Navigation
 
 Read the notes in this order for a full picture. Each note is short. Each note links to the notes near it.
@@ -59,4 +63,5 @@ Read the notes in this order for a full picture. Each note is short. Each note l
 
 - `Mesh/`: all content of this Guide. `Mesh/Notes/` holds the notes.
 - `Media/`: images and other non-markdown files.
-- `Shards/`: the capabilities that are installed in this Flint.
+- `Shards/`: the capabilities that are installed in this Flint. `Shards/(Source Local) Flint Help/` is the source of the Flint Help shard.
+- `Sources/Repos/Flint Public/`: a read-only copy of the Flint source code (`https://github.com/NUU-Cognition/flint-public`). `flint sync` clones it. Do not edit it.

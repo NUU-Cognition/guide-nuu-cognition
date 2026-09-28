@@ -1,0 +1,11 @@
+shard-spec: "0.4.0"
+shard: "@nuucognition/flint-help"
+id: 7e3318d8-aa6d-48dd-9222-5d068ce3787e
+source:
+  id: 038ff7eb-6d51-4266-a74e-da5f7ebe5022
+version: "0.1.0"
+name: Flint Help
+shorthand: fh
+description: Answers any question about Flint and explains any Flint problem, from the installed CLI, the guide notes, and the Flint Public source code.
+dependencies:
+  "@nuucognition/flint": "^0.2"

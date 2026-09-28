@@ -15,4 +15,7 @@ Shards/(Shards) Local State/
 # Shards (remote-backed)
 Shards/(Dev Remote) */
 Shards/(Source Remote) */
+
+# Sources (machine-specific)
+Sources/Repos/
 # === End Flint Managed ===

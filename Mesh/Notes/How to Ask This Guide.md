@@ -7,6 +7,7 @@ authors:
   - "[[@NUS]]"
 orbh-sessions:
   - "[[2ff5aec8-2ffa-412b-b5fc-88b569465d70]]"
+  - "[[b61b6398-0bf0-4b33-81ef-df08f56f2fc5]]"
 ---
 
 # How to Ask This Guide
@@ -27,6 +28,13 @@ This Flint is a Guide about NUU Cognition. A person clones it, opens it with an 
 - It answers from the notes of this Guide first, and it names them.
 - When the notes have no answer, it says so. It does not guess. It points you to the public docs.
 - When two notes disagree, it prefers the newer one, and it tells you.
+- For a Flint question or a Flint problem, it loads the Flint Help shard (`flint shard start fh`). Flint Help also reads the installed CLI and the Flint source code in `Sources/Repos/Flint Public/`.
+
+## Ask about a Flint problem
+
+1. Run the command again, and copy the full output. Do not cut it.
+2. Give the command, the folder where you ran it, and what you expected.
+3. The agent explains the cause, names the evidence, and gives the next command. It asks you before it runs a command that changes your files.
 
 ## Good questions for this Guide
 
@@ -34,6 +42,7 @@ This Flint is a Guide about NUU Cognition. A person clones it, opens it with an 
 - What is the difference between a Flint, a Mesh, and a shard?
 - What does a Guide Flint do, and how is it different from a Member Flint?
 - How do I install Flint and make my first workspace?
+- `flint sync` says `blocked`. What do I do?
 - What does `private`, `org`, and `public` mean for a Flint?
 - What is an address, and how do I read `@my-org/flint/my-notes`?
 
@@ -42,7 +51,7 @@ This Flint is a Guide about NUU Cognition. A person clones it, opens it with an 
 This Guide is a front door. It is not the knowledge base. It does not hold:
 
 - Internal plans, tasks, or meeting notes of NUU Cognition.
-- Source code details. Read the code and the READMEs of the repositories for those.
+- Source code details of products other than Flint. For Flint, Flint Help reads the copy of the Flint source in `Sources/Repos/Flint Public/`.
 - Facts about a person, beyond a public author line.
 - Anything private to one org or one machine.
 

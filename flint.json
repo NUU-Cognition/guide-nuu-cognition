@@ -27,7 +27,7 @@
         "hash": "ce72a31a67504f44b9ee422b7264592aa813af20b2cce12ff086f79caa006f6a"
       },
       "resolved": {
-        "registry": "unchecked",
+        "registry": "unregistered",
         "repo": "NUU-Cognition/shard-flint",
         "from": "git"
       },
@@ -222,7 +222,7 @@
         "git": "NUU-Cognition/shard-invironments"
       },
       "resolved": {
-        "registry": "unchecked",
+        "registry": "unregistered",
         "repo": "NUU-Cognition/shard-invironments",
         "sha": "03da5d6eff236027338600e6e723e1ebfb8fe4aa",
         "from": "git"
@@ -354,6 +354,73 @@
       "setup": "none",
       "migrations": {},
       "pending": []
+    },
+    "7e3318d8-aa6d-48dd-9222-5d068ce3787e": {
+      "spec": "shard-record/0.2",
+      "shard": "@nuucognition/flint-help",
+      "alias": "flint-help",
+      "shorthand": "fh",
+      "name": "Flint Help",
+      "address": "@nuucognition/shard/flint-help",
+      "request": "@nuucognition/shard/flint-help",
+      "version": "0.1.0",
+      "state": {
+        "kind": "edited",
+        "hash": "40e3d34c9f8566b58a6fee587e130a3571b32c6090d74aec7b150f3cec8c6cba"
+      },
+      "source": {
+        "id": "038ff7eb-6d51-4266-a74e-da5f7ebe5022",
+        "presence": "Shards/(Source Local) Flint Help"
+      },
+      "resolved": {
+        "registry": "unchecked",
+        "from": "source"
+      },
+      "package": {
+        "hash": "40e3d34c9f8566b58a6fee587e130a3571b32c6090d74aec7b150f3cec8c6cba",
+        "files": [
+          {
+            "path": "Shards/Flint Help/init-fh.md",
+            "sha256": "b0d4abf2c948ee4b01aa7bcf5b52ae326407b394c8c021272a66512b26e3b857"
+          },
+          {
+            "path": "Shards/Flint Help/knowledge/knw-fh-common_problems.md",
+            "sha256": "ba489f4ad6491ca0eb3eeaf89a0808178b177f5ed16e54990ba4b1144bbe51ea"
+          },
+          {
+            "path": "Shards/Flint Help/knowledge/knw-fh-source_map.md",
+            "sha256": "c90186639e463d16304ec661433efdaf0b8e10e338af098b4b68a7c5dec6f8ff"
+          },
+          {
+            "path": "Shards/Flint Help/shard.yaml",
+            "sha256": "dcebbdbc71007b4b9e2abd9e127e766de15828df1687e7aaa17266f1b52ba86d"
+          },
+          {
+            "path": "Shards/Flint Help/skills/sk-fh-answer_question.md",
+            "sha256": "41a9799afe7d45e464407e48e412a2eae1142fe238f0f5efd30b2f4272f2474b"
+          },
+          {
+            "path": "Shards/Flint Help/skills/sk-fh-explain_problem.md",
+            "sha256": "baaea5875c04f4c9aa74b3b4c571f6ee99bccdb6d5afbb4ceca892ae9ee9f1a8"
+          }
+        ]
+      },
+      "payloads": [],
+      "folders": [
+        "Shards/Flint Help",
+        "Shards/Flint Help/assets",
+        "Shards/Flint Help/knowledge",
+        "Shards/Flint Help/scripts",
+        "Shards/Flint Help/skills",
+        "Shards/Flint Help/templates",
+        "Shards/Flint Help/workflows"
+      ],
+      "setup": "none",
+      "migrations": {},
+      "pending": [],
+      "dependencies": {
+        "@nuucognition/shard/flint": "cd1ed9af-5eb2-4042-b9ed-73d32b86a896"
+      }
     }
   },
   "org": {

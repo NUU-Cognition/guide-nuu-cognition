@@ -14,6 +14,7 @@ How to ask:
 2. Ask one question at a time. Give the name of the thing that you ask about.
 3. The agent reads the Mesh of this Flint and answers from it. It names the notes that it used.
 4. If the Mesh has no answer, the agent says so. It does not guess.
+5. For a Flint question or a Flint problem, the agent loads the Flint Help shard (`flint shard start fh`). Paste the full output of the command that failed.
 
 How to keep the guide correct:
 
